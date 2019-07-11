@@ -1,33 +1,47 @@
-a {
-  text-decoration:none;
-}
-
 /* Navigation bar */
 
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: contents;
+}
+
 .nav-container {
-  display: flex;
+    display: flex;
 }
 
 .nav-logo {
-  flex: 1;
-  width: 100px;
-  high: 100px;
-}
-.nav-link {
-  flex: 1;
-  text-transform: uppercase;
+    flex: 1;
+    width: 100px;
+    high: 100px;
 }
 
+.nav-link {
+    flex: 1;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+
+
 /* nav-bar-style */
-.nav-link a{
-  list-style: none;
-  color:black;
+
+.nav-link a {
+    list-style: none;
+    color: black;
 }
 
 .nav-link a:hover {
-  color: #7a5b98;
+    color: #7a5b98;
 }
 
-ul {
-  list-style-type: none;
+
+/* Middle part of the website */
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
 }
