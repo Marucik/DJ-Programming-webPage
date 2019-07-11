@@ -1,0 +1,33 @@
+a {
+  text-decoration:none;
+}
+
+/* Navigation bar */
+
+.nav-container {
+  display: flex;
+}
+
+.nav-logo {
+  flex: 1;
+  width: 100px;
+  high: 100px;
+}
+.nav-link {
+  flex: 1;
+  text-transform: uppercase;
+}
+
+/* nav-bar-style */
+.nav-link a{
+  list-style: none;
+  color:black;
+}
+
+.nav-link a:hover {
+  color: #7a5b98;
+}
+
+ul {
+  list-style-type: none;
+}
