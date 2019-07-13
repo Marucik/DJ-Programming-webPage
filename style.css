@@ -28,6 +28,8 @@ a {
     height: 100px;
     margin-left: 50px;
     margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 .nav-list {
@@ -85,4 +87,38 @@ a {
     color: whitesmoke;
     padding-bottom: 180px;
     font-family: 'Roboto', sans-serif;
+}
+
+
+/* Bottom part of the website (3 boxes) */
+
+.bottom-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px 50px 50px;
+}
+
+.bottom-boxes {
+    background: #eeeeee;
+    border: solid 3px #ddd2d2;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+}
+
+.bottom-img-slack {
+    width: 300px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
 }
