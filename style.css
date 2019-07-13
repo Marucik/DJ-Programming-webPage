@@ -15,6 +15,7 @@ html {
 
 a {
     text-decoration: none;
+    font-size: 25px;
 }
 
 .nav-container {
@@ -25,7 +26,7 @@ a {
     flex: 1;
     width: 120px;
     height: 100px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
@@ -42,7 +43,8 @@ a {
     display: initial;
     text-transform: uppercase;
     text-align: center;
-    margin: 23px;
+    margin: 52px;
+    margin-right: 100px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -60,7 +62,27 @@ a {
 
 /* Middle part of the website */
 
-.heading {
+.middle {
+    background: url(img/students-bg-cropped.jpg);
+    width: 100vw;
+    resize: both;
+    background-size: cover;
+}
+
+.middle-header {
     text-transform: uppercase;
     text-align: center;
+    font-size: 60px;
+    padding-top: 180px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.middle-paragraph {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-bottom: 180px;
+    font-family: 'Roboto', sans-serif;
 }
